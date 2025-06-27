@@ -1,0 +1,256 @@
+
+*{
+  margin:0px;
+  font-family:ProximaNova,arial,Helvetica Neue,sans-serif;
+
+}
+body{
+    position:relative;
+
+}
+.navbar{
+    height:80px;
+    width:100%;
+    box-shadow: 0.5px 0.5px 15px rgba(11, 8, 8, 0.27);
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    justify-content:space-between;
+    position:fixed;
+    top:0px;
+    z-index: 2;
+}
+.nav1{
+    display: flex;
+    height:80px;
+    width:17%;
+    align-items: center;
+    justify-content:space-between;
+    padding:0rem 0.5rem 0rem 0.5rem;
+}
+.nav1 .img{
+    background-image:url("swiggylogo.jpg");
+    background-size:contain;
+    height:70px;
+    background-repeat: no-repeat;
+    mix-blend-mode: color-burn;
+    width:100px;
+    transition-duration: 0.3s;
+    margin:0rem 0.5rem 0rem 0.3rem;
+}
+.nav1 .other{
+    height:100%;
+    display: flex;
+    width:35%;
+    font-size: 1rem;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;;
+    font-weight:700;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav2{
+    display:flex;
+    width:45%;
+    font-size: 1rem;
+    opacity:0.85;
+    padding:0.5rem;
+    justify-content: space-between;
+}
+.nav2 .percent img{
+    height:17px;
+    width:15px;
+    font-weight: 500;
+}
+.nav1 .img:hover{
+    transform: scale(1.15);
+}
+.nav2 .opt:hover{
+    color:orange;
+}
+main{
+display:flex;
+flex-direction:column;
+align-items:center;
+width:105%;
+position:relative;
+top:80px;
+border:1px solid red;
+}
+.options{
+    border-bottom:2px solid rgba(0, 0, 0, 0.077);
+    height:250px;
+    margin:1rem;
+    width:82%;
+}
+.options .next{
+    display:flex;
+    justify-content: space-between;
+    padding:0.2rem;
+
+ }
+.head{
+    font-size:1.5rem;
+    font-weight:600;
+} 
+.next .icons i{
+    background-color: rgba(128, 128, 128, 0.226);
+    font-size:1.3rem;
+    padding: 0.5rem;;
+    border-radius: 2rem;
+    height:25px;
+    text-align:center;
+    margin:0.3rem;
+    width:25px;
+}
+.items{
+    height:200px;
+    width:80%;
+    align-items: center;
+    justify-content:space-around;
+    display: flex;
+}
+.items .dish{
+    height:90%;
+    width:250px;
+    margin:0rem 0.5rem 0rem 0.5rem;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+.muloption{
+    width:82%;
+}
+.muloption .setting{
+    display: flex;
+    margin:1rem 0rem 1rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.5rem;
+}
+.setting .set{
+    border:1px solid rgba(0, 0, 0, 0.175);;
+    border-radius: 1rem;
+    padding:0.4rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color:#02060cbf;
+    margin:0rem 0.3rem 0rem 0rem;
+}
+.setting span{
+    font-size:1rem;
+}
+
+.menu{
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.077);;
+    flex-wrap: wrap;
+}
+.menu1{
+    height:250px;
+    width:23%;
+    margin:1rem 1rem 1rem 0.1rem;
+}
+.menu .img{
+    height:150px;
+    width:100%;
+    background-size: cover;
+    border-radius: 1rem;
+   
+    position: relative;
+}
+.img span{
+    position: absolute;
+    top:115px;
+    left:10px;
+    font-weight: 600;
+    font-size:1.3rem;
+}
+.star{
+    text-align:left;
+    padding:0.5rem;
+}
+.star span{
+    color:white;
+    background-color: green;
+    border-radius:1rem;
+}
+.star .dark{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.star .light{
+    font-size: 0.8rem;
+    opacity: 0.4;
+    line-height: 1.3rem;
+}
+footer{
+    width:110%;
+    position: relative;
+    top:80px;
+    
+}
+.foot_img{
+    display: flex;
+    justify-content: space-between;
+    width:35%;
+    height: 100%;
+    margin:0rem 1rem 0rem 1rem;
+    align-items: center;
+
+
+}
+footer .foot1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #f0f0f5;
+}
+.foot_img img{
+    height:60px;
+    width:200px;
+}
+.foot2{
+    display: flex;
+    height:400px;
+    justify-content: space-evenly;
+    align-items: start;
+    padding:2.5rem;
+    background-color: black;
+    
+}
+.foot2 .heading{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.444)    ;
+    font-size: 1.1rem;
+    line-height: 2.4rem;
+}
+.footlogo img{
+    height:35px;
+    width:30px;
+}
+.footlogo span{
+    color:white;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.foot2 .contact{
+    display: flex;
+    flex-direction: column;
+    height:80%;
+    justify-content: space-between;
+}
+.footlogo{
+    line-height: 1.6rem;
+
+}
+.footlogo p{
+    font-size: 1.5;
+    color:rgba(255, 255, 255, 0.444)    ;
+}

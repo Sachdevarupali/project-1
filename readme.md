@@ -1,0 +1,1 @@
+#this is a clone of swiggy...in this clone i  only used html and css and just for practice i used js code
